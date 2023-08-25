@@ -1,0 +1,9 @@
+Model: linear_classifier
+Train type: proximal
+Bottleneck position: 2
+Epoch: 200
+Channel: 1
+Dataset: mnist
+Optimizer: sgd
+Front loss: l2
+Learning rate: [0.013, 0.013, 0.5, 30, 80]
